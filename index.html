@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" href="images/logo-removebg-preview.png">
+    <script src="java.min.js"></script>
+    
+    
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="flickity.css">
+    <link rel="stylesheet" href="media.css">
+   
+    <title>Casadiella Pastelería</title>
+</head>
+
+<body>
+
+    <section class="Navbar-Menu" id="Navbar-Menu-Id">
+        <div class="menu">
+            <div class="leftside">
+                <img src="images/logo-removebg-preview.png" alt="logo.png">
+            </div>
+            <div class="rightside" id="rightside">
+                <nav class="Icons">
+                    <a href="#Navbar-Menu-Id" class="navicon">Home</a>
+                    <a href="#Second-sec-id" class="navicon">About Us</a>
+                    <a href="#menu-id" class="navicon">Menu</a>
+                    <a href="#Gallery-Id" class="navicon">Gallery</a>
+                    <a href="#Feedback" class="navicon">Feedback</a>
+                    <a href="#footerid" class="navicon">Contact</a>
+                    <i class="fas fa-times-circle" id="cross" onclick="Hidemenu()"></i>
+
+                    <div class="social">
+                        <li id="Border"></li>
+                        <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+                        <a href="cart.html" id="Sweet-Bakery">Add to Cart</a>
+                    </div>
+                </nav>
+            </div>
+            <div class="menubar" >
+                <div class="line" onclick="Togglebar()"></div>
+                <div class="line" onclick="Togglebar()"></div>
+                <div class="line" onclick="Togglebar()"></div>
+            </div>
+        </div>
+        <div class="heading" >
+            <h2>Welcome To Casadiellas Pastelería</h2>
+            <p>Looking for perfectly baked goods? <br>We got you!</p>
+            <a href="feedback.html"><i class="fal fa-phone-rotary"></i>Contact Us</a>
+        </div>
+        <div class="Scroll-Arrow" id="topbutton">
+            <a href="#"><i class="fal fa-arrow-up"></i></a>
+         </div>
+    </section>
+
+    <section class="second-Sec" id="Second-sec-id">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 mx-auto second-sec">
+                    <img src="https://images.pexels.com/photos/8651023/pexels-photo-8651023.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"class="container-fluid">
+                </div>
+                <div class="col-lg-6 col-md-6 mx-auto second-sec">
+                    <h2><span id="Welcome">Welcome to</span> Casadiellas Pastelería</h2>
+                    <p>Enjoy delicious freshly baked pastries at ‘Casadiella Pastelería’ that are sure to delight your taste buds! Get ready to tantalize your palate with sweet confections made with love and care, baked from our oven delivered straight to your home.
+
+                        At ‘Casadiellas Pastelería’ we follow a fairly simple philosophy – offer a product of outstanding quality and ensure customer loyalty. The simplicity of that principle is backed up by a lot of hard work and years of experience. 
+                        
+                        Casadiellas is specializing in freshly baked breads, Mousses, Pies and Dessert Bars. We also offer a variety of bite sized treats. Everything is made from scratch in house and with locally sourced ingredients when possible. Perfect as well to gift to friends, loved ones, or someone special for birthdays, Valentine's day, or any special day. 
+                        </p>
+                    <a href="#">About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="MenuSection" id="menu-id">
+        <h1>OUR SPECIALTIES</h1>
+        <p>Fresh Bakery Items with the Finest Ingredients</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="images/croissant.jpg" alt=""
+                        class="container-fluid">
+                    <h3>Croissants</h3>
+                    <h6>₱110.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="cart.html">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="images/Muffins.jpg" alt=""
+                        class="container-fluid">
+                    <h3>Muffins</h3>
+                    <h6>₱130.00<span id="Weight"> 2.5 Pound</span></h6>
+                    <a href="cart.html">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+
+                    <img src="images/apple-danish.webp" alt=""
+                        class="container-fluid">
+                    <h3>Apple Danish</h3>
+                    <h6>₱240.00<span id="Weight">Per Bucket</span></h6>
+                    <a href="cart.html">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+
+                    <img src="images/cinnamon.jpeg" alt=""
+                        class="container-fluid">
+                    <h3>Cinnanom Rolls</h3>
+                    <h6>₱125.00<span id="Weight">Per Kg</span></h6>
+                    <a href="cart.html">Order</a>
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="images/scones.jpg" alt=""
+                        class="container-fluid">
+                    <h3>Scones</h3>
+                    <h6>₱100.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="cart.html">Order</a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="images/cookies.jpeg" alt=""
+                        class="container-fluid">
+                    <h3>Cookies</h3>
+                    <h6>₱250.00<span id="Weight"> Per Box</span></h6>
+                    <a href="cart.html">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="images/brownies.jpg" alt=""
+                        class="container-fluid">
+                    <h3>Brownies</h3>
+                    <h6>₱260.00<span id="Weight"> Per Box</span></h6>
+                    <a href="cart.html">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+
+                    <img src="images/paradise bars.jpeg" alt=""
+                        class="container-fluid">
+                    <h3>Paradise Bars</h3>
+                    <h6>₱120.00<span id="Weight"> Per Pack</span></h6>
+                    <a href="cart.html">Order</a>
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="images/macaroons.jpeg" alt=""
+                        class="container-fluid">
+                    <h3>Macaroons</h3>
+                    <h6>₱120.00<span id="Weight"> Per Pack</span></h6>
+                    <a href="cart.html">Order</a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="images/loaf.jpeg"
+                        alt="" class="container-fluid">
+                    <h3>Loaf Cakes</h3>
+                    <h6>₱240.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="cart.html">Order</a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="images/cashew.jpeg"
+                        alt="" class="container-fluid">
+                    <h3>Cashew Roll</h3>
+                    <h6>₱240.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="cart.html">Order</a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="images/biscotti.jpg" alt=""
+                        class="container-fluid">
+                    <h3>Biscotti</h3>
+                    <h6>₱200.00<span id="Weight"> per Dozen</span></h6>
+                    <a href="cart.html">Order</a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="images/tiramisu.jpg" alt="" class="container-fluid">
+                    <h3>Tiramisu</h3>
+                    <h6>₱450.00<span id="Weight"> Per liter</span></h6>
+                    <a href="cart.html">Order</a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="images/mango.jpg" alt="" class="container-fluid">
+                    <h3>Mango Mousse</h3>
+                    <h6>₱490.00<span id="Weight"> Per liter</span></h6>
+                    <a href="cart.html">Order</a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="images/blackberry.jpg"
+                        alt="" class="container-fluid">
+                    <h3>Blackberry Miroir</h3>
+                    <h6>₱240.00<span id="Weight"> Per liter</span></h6>
+                    <a href="cart.html">Order</a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="images/apple.jpg" alt="" class="container-fluid">
+                    <h3>Apple Pies</h3>
+                    <h6>₱420.00<span id="Weight"> Per liter</span></h6>
+                    <a href="cart.html">Order</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Gallery" id="Gallery-Id">
+        <h1>Gallery</h1>
+        <p>Here our other offer baked pastries that are sure to delight your taste buds.</p>
+
+        <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+           
+            <div class="carousel-cell">
+            <img src="https://images.unsplash.com/photo-1605807646983-377bc5a76493?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80">
+            <a href="#">Ice Cake</a>
+           
+            </div>
+           
+            <div class="carousel-cell">
+            <img src="https://media.istockphoto.com/photos/indian-sweets-in-a-plate-includes-gulab-jamun-rasgulla-kaju-katli-picture-id1054228718?k=20&m=1054228718&s=612x612&w=0&h=OFcioOdcbacinr2F7M0hULoAr3egWnU_BIt5XLmznf0=">
+                <a href="#">Sweets</a>
+              
+            </div>
+           
+            <div class="carousel-cell">
+            <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29va3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80">
+                <a href="#">Biscuits</a>
+               
+            </div>
+           
+            <div class="carousel-cell">
+            <img src="https://w0.peakpx.com/wallpaper/754/603/HD-wallpaper-chocolate-ice-cream-close-up-sweets-ice-cream-balls-ice-cream.jpg">
+                <a href="#">Ice Cream</a>
+               
+            </div>
+           
+            <div class="carousel-cell">
+            <img src="https://c4.wallpaperflare.com/wallpaper/317/423/666/chocolate-4k-hd-pc-download-wallpaper-preview.jpg">
+                <a href="#">Chocolate</a>
+               
+            </div>
+
+            <div class="carousel-cell">
+                <img src="images/coffee.webp">
+                    <a href="#">Coffee</a>
+                   
+            </div>
+            
+        </div>
+</section>
+
+<section class="Feedback" id="Feedback">
+    <h1>Feedback</h1>
+    <p>Thank you for being our valued customer. Your support and trust in us are much appreciated.</p>
+    <div class="feedback-background">
+            <div class="center-heading">
+            <p>Please share your feedback with us so we can improve our products as well as our website or service<br> Please contact Casadiellas Pastelería directly.</p>
+            <a href="feedback.html">Send Feedback Now</a>   
+            </div> 
+    </div>
+</section>
+
+
+<section class="footer" id="footerid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 mx-auto">
+                <h3>About Us</h3>
+                <p>The "Casadiellas Pastelería" is a Spanish and French Brand that started as a small family business. The owners are Sophia Danielle Acosta and Warren Brimon, supported by a staff of 25 employees. Although not small any more, the business tries to keep the family atmosphere where we care not only about our company, our products and our staff, but also we consider each "customer" a member in this family of "casadiellas shoppers."</p>
+                <hr class="w-25 mx-auto text-dark">
+                <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://gmail.google.com" target="blank"><i class="fab fa-google-plus-g"></i></a>
+                <a href="https://www.pinterest.com/" target="blank"><i class="fab fa-pinterest"></i></a>
+                <a href="https://instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto">
+                <h3>Contact Us</h3>
+                <p>8 Hillman St, Novaliches, Quezon City, 1118 Metro Manila</p>
+                <hr class="w-25 mx-auto text-dark">
+                <p>Hours: Opens 6-AM To 10-PM <br>
+                    Monday to Sunday <br>
+                Phone: (021) 35127361</p>      
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto">
+                <h3>Location</h3>
+                <iframe src="https://www.google.com/maps/d/embed?mid=1TrxGWFPOQAc0Be2aYj251q8NSs-GlTI&ehbc=2E312F"  height="200" style="border:0;" allowfullscreen="" loading="lazy" class="container-fluid"></iframe>
+            </div>
+        </div>
+    </div>
+    <hr class="w-50 mt-5 mx-auto text-dark">
+    <div class="container last-footer" >
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 mx-auto Copyright">
+                <h4 id="last-logo">Casadiellas Pastelería</h4>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto Copyright">
+                <h4><span id="Name">Casadiellas Pastelería</span> © Privacy Policy</h4>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto Copyright">
+                <h4>Design & Developed by <span id="Name">Sophia Danielle Acosta</span></h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <script src="cart.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
